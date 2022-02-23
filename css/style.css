@@ -450,6 +450,7 @@ header {
   border-radius: 30px;
   letter-spacing: 1px;
   cursor: pointer;
+  transition: 0.4s;
 }
 
 /* About Us */
@@ -751,6 +752,10 @@ footer {
   .headrList a:hover{
     display: inline-block;
     background-color: #dddddd;
+  }
+  .important-news:hover {
+    background-color: rgba(0, 0, 0, .9);
+    color: #F5F5F5;
   }
   .shopingIcon .fa-cart-shopping:hover {
     background-color: #dddddd;
