@@ -933,7 +933,7 @@ footer {
     margin: 20px auto;
     font-size: 12px;
   }
-  .fa-circle-chevron-right {
+  .important-news i {
     display: none;
   }
   /* NewsItems */
