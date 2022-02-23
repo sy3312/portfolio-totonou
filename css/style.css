@@ -32,7 +32,7 @@ img{
 .ham{
   position: fixed;
   top: 3%;
-  right: 2%;
+  right: 4%;
   width: 35px;
   height: 25px;
   cursor: pointer;
@@ -582,8 +582,8 @@ header {
   display: -webkit-flex;
 	display: flex;
 }
-.NewsItems li > a img{
-  width: 100px;
+.NewsItems img{
+  width: 100px !important;
   height: 100px;
   display: block;
   object-fit: cover;
@@ -965,4 +965,11 @@ footer {
   .categoryItems {
     padding-top: 50px;
   }
+  .topicsRight-text {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+
 }
+
