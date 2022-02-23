@@ -947,6 +947,10 @@ footer {
   .NewsItems li{
     width: 100%;
   }
+  /* Topics */
+  .topicsLeft-img2 p{
+    font-size: 13px;
+  }
   /* Category */
   .categoryItems {
     padding-top: 50px;
