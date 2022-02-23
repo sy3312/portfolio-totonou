@@ -938,6 +938,7 @@ footer {
   }
   /* NewsItems */
   .NewsItems {
+    padding: 10px 0;
     height: 400px;
     overflow-y: auto;
     margin-top: 40px;
