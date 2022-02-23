@@ -12,17 +12,17 @@ ham.addEventListener('click', ()=> {
 var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0;
 		if (windowwidth > 768){
 			var responsiveImage = [
-				{ src: '../img/slider/slider1.jpg'},
-				{ src: '../img/slider/slider2.jpg'},
-				{ src: '../img/slider/slider3.jpg'},
-				{ src: '../img/slider/slider4.jpg'}
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider1.jpg'},
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider2.jpg'},
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider3.jpg'},
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider4.jpg'}
 			];
 		} else {
 			var responsiveImage = [
-				{ src: '../img/slider/slider1.jpg'},
-				{ src: '../img/slider/slider2.jpg'},
-				{ src: '../img/slider/slider3.jpg'},
-				{ src: '../img/slider/slider4.jpg'}
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider1.jpg'},
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider2.jpg'},
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider3.jpg'},
+				{ src: 'https://sy3312.github.io/portfolio-totonou/img/slider/slider4.jpg'}
 			];
 		}
 
