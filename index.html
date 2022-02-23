@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POPSCLE</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+    <link rel="manifest" href="img/favicon.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/037cd553cf.js" crossorigin="anonymous"></script>
+    <!-- スライダー slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">
+    <!-- new Item -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+</head>
+
+<body>
+  <!-- ハンバーガーここから -->
+  <div class="ham" id="ham">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <ul class="hamNav" id="hamNav">
+      <li>
+        <i class="fa-solid fa-circle-user"></i>
+        <a href="#">
+          My Page
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          お知らせ
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          クーポン
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          ポイントについて
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          購入履歴
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          ToTonouのお得な情報
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          配送・送料について
+        </a>
+      </li>
+  </ul><!-- /hamNav -->
+
+  <div class="mainImage" id="slider">
+    <div class="scrolldown2"><span>Scroll</span></div>
+  </div>
+    <header>
+
+      <div class="headerContainer">
+        <div class="headerLeft" id="js-headerLeft">
+          <h1>
+            <a href="#">
+              <img src="img/logo1.jpg" alt="ToTonouロゴ">
+            </a>
+          </h1>
+          <nav>
+            <ul class="headrList">
+              <li>
+                <a href="">New Item</a>
+              </li>
+              <li>
+                <a href="">Pick Up</a>
+              </li>
+              <li>
+                <a href="">News</a>
+              </li>
+              <li>
+                <a href="">Topics</a>
+              </li>
+              <li>
+                <a href="">Category</a>
+              </li>
+            </ul>
+          </nav>
+        </div><!-- /headerLeft -->
+        <div class="headerRight" id="js-headerRight">
+          <div class="shopingIcon">
+            <form action="#">
+              <input type="text" class="searchText">
+              <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </div>
+          <ul class="headrList">
+            <li>
+              <a href="#">
+                My Page
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div><!-- /headrRight -->
+      </div><!-- /headerContainer -->
+
+      <!-- スクロール後のheader -->
+      <div class="headerContainer-scroll" id="js-headerContainer-scroll">
+        <div class="headerLeft-scroll">
+          <a href="#">
+            <img src="img/logo1.jpg" alt="ToTonouロゴ">
+          </a>
+          <ul class="headrList-scroll">
+            <li>
+              <a href="">New Item</a>
+            </li>
+            <li>
+              <a href="">Pick Up</a>
+            </li>
+            <li>
+              <a href="">News</a>
+            </li>
+            <li>
+              <a href="">Topics</a>
+            </li>
+            <li>
+              <a href="">Category</a>
+            </li>
+          </ul>
+        </div><!-- /headerLeft-scroll -->
+        <div class="headerRight-scroll">
+          <form action="#">
+            <input type="text" class="searchText">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <ul class="headrList-scroll">
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-circle-user"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div><!-- /headerContainer-scroll -->
+    </header>
+
+    <!-- width768pxで表示 -->
+    <div class="dockItems">
+      <ul class="dockList">
+        <li>
+          <i class="fa-solid fa-ticket"></i>
+          <p>クーポン</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <p>メルマガ</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <p>検索</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-heart"></i>
+          <p>お気に入り</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-user"></i>
+          <p>マイページ</p>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <p class="important-news"><span>※【重要なお知らせ】</span>商品ご購入前に必ずお読みください。<i class="fa-solid fa-circle-chevron-right"></i></p>
+
+      <!-- Abou Us -->
+      <section>
+        <article class="aboutContainer">
+          <div class="aboutWrap">
+            <div class="aboutLeft">
+              <h2>About Us</h2>
+              <p>わたしたちについて</p>
+            </div>
+            <div class="aboutRight">
+              <p>
+                ToTonouはファッション、インテリアや生活道具を扱うオンラインショップです。<br>
+                “自分らしく、スタイリッシュに着こなそう”をコンセプトに毎日の暮らしに寄り添うアイテムを販売しています。
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- New Item -->
+      <section>
+        <article class="container">
+          <div class="wrapper">
+            <h3 class="heading">
+              New Item
+              <span>- 新着アイテム -</span>
+            </h3>
+            <ul class="slider">
+              <li><img src="img/newitem/number1.png" alt="新着アイテム"></li>
+              <li><img src="img/newitem/number5.png" alt="新着アイテム"></li>
+              <li><img src="img/newitem/number13.png" alt="新着アイテム"></li>
+              <li><img src="img/newitem/tops-c.png" alt="新着アイテム"></li>
+              <li><img src="img/newitem/number2.png" alt="新着アイテム"></li>
+              </ul><!--/slider-->
+              <a href="#" class="btnMore">
+                MORE
+              </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- pick Up  -->
+      <section>
+        <article class="container">
+          <div class="wrapper">
+            <h3 class="heading">
+              Pick Up
+              <span>- ピックアップ -</span>
+            </h3>
+            <ul class="pickupItems listItems">
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup1.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup2.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup3.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup4.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup5.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup6.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup7.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup8.png" alt="pickup画像">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/pickup/pickup9.png" alt="pickup画像">
+                </a>
+              </li>
+            </ul><!-- /pickupItems -->
+          </div>
+        </article>
+      </section>
+
+      <!-- News -->
+      <section>
+        <article class="container">
+          <div class="wrapper">
+            <h3 class="heading">
+              News
+              <span>- お知らせ -</span>
+            </h3>
+            <ul class="NewsItems listItems">
+              <li>
+                <a href="#">
+                  <img src="img/news/news1.jpg" alt="News画像">
+                  <div class="news-text">
+                    <p class="news-day">
+                      2021.12
+                    </p>
+                    <p class="news-event">
+                      年末年始のお知らせ
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/news/news2.jpg" alt="News画像">
+                  <div class="news-text">
+                    <p class="news-day">
+                      2022.01
+                    </p>
+                    <p class="news-event">
+                      ToTonouのこだわりのデニムを揃えています
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/news/news3.jpg" alt="News画像">
+                  <div class="news-text">
+                    <p class="news-day">
+                      2021.02
+                    </p>
+                    <p class="news-event">
+                      ToTonouで一緒に働く仲間を募集!!
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/news/news4.jpg" alt="News画像">
+                  <div class="news-text">
+                    <p class="news-day">
+                      2021.03
+                    </p>
+                    <p class="news-event">
+                      今期トレンド、春にぴったりなサングラス
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/news/news5.jpg" alt="News画像">
+                  <div class="news-text">
+                    <p class="news-day">
+                      2021.04
+                    </p>
+                    <p class="news-event">
+                      今期春に入荷決定！！
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/news/news6.jpg" alt="News画像">
+                  <div class="news-text">
+                    <p class="news-day">
+                      2021.04
+                    </p>
+                    <p class="news-event">
+                      新社会人にぴったりな手帳が入荷しました！！
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul><!-- /NewsItems -->
+            <a href="#" class="btnMore">
+              MORE
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- Topics -->
+      <section>
+        <article class="container">
+          <div class="wrapper">
+            <h3 class="heading">
+              Topics
+              <span>- お得な情報 -</span>
+            </h3>
+            <div class="topicsItems listItems">
+              <div class="topicsLeft topicsItem">
+                <div class="topicsLeft-img1">
+                  <a href="#">
+                    <img src="img/topics/topics01.png" alt="Topics画像">
+                  </a>
+                  <p>SNSで人気の商品をご紹介します。</p>
+                </div><!-- /topicsLeft-img1 -->
+                <div class="topicsLeft-img2">
+                  <a href="#">
+                    <img src="img/topics/topics03.jpg" alt="Topics画像">
+                  </a>
+                  <p>
+                    出張先や旅行先の<br>
+                    アイテムも<br>
+                    ToTonouで揃える。
+                  </p>
+                </div><!-- /topicsLeft-img2 -->
+              </div><!-- /topicsLeft -->
+              <div class="topicsCenter topicsItem">
+                  <a href="#">
+                    <img src="img/topics/topics02.png" alt="Topics画像">
+                  </a>
+              </div><!-- /topicsCenter -->
+              <div class="topicsRight topicsItem">
+                <div class="topicsRight-textBlock">
+                  <div class="topicsRight-text">
+                    <p>
+                      セットで
+                    </p>
+                    <p>
+                      <span>お買い得</span>
+                      ！！
+                    </p>
+                  </div>
+                </div><!-- /topicsRight-text -->
+                <img src="img/topics/topics05.png" alt="Topics画像">
+                <a href="#">
+                  <img src="img/topics/topics04.jpg" alt="Topics画像">
+                </a>
+              </div><!-- /topicsRight -->
+            </div><!-- /topicsItems -->
+          </div>
+        </article>
+      </section>
+
+      <!-- Category -->
+      <section>
+        <article class="container category-container">
+          <div class="wrapper">
+              <h3 class="heading">
+                Category
+                <span>- カテゴリー -</span>
+              </h3>
+            <img class="mens-image" src="img/category/category-top.png" alt="カテゴリートップ画像">
+            <ul class="categoryItems listItems">
+              <li>
+                <a href="#">
+                  <img src="img/category/tops-c.png" alt="カテゴリー画像">
+                  <p class="category-text">トップス</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/auter-c.png" alt="カテゴリー画像">
+                  <p class="category-text">アウター</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/pantu-c.png" alt="カテゴリー画像">
+                  <p class="category-text">ボトムス</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/socks-c.png" alt="カテゴリー画像">
+                  <p class="category-text">靴下</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/bag-c.png" alt="カテゴリー画像">
+                  <p class="category-text">バッグ</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/cap-c.png" alt="カテゴリー画像">
+                  <p class="category-text">帽子</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/shoes-c.png" alt="カテゴリー画像">
+                  <p class="category-text">スニーカー</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/komono-c.png" alt="カテゴリー画像">
+                  <p class="category-text">小物</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/perfume-c.png" alt="カテゴリー画像">
+                  <p class="category-text">香水</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/clock-c.png" alt="カテゴリー画像">
+                  <p class="category-text">時計</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/stool-c.png" alt="カテゴリー画像">
+                  <p class="category-text">インテリア</p>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/category/fragrance-c.png" alt="カテゴリー画像">
+                  <p class="category-text">スキンケア</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="footerContaier">
+        <div class="footer-sns">
+          <h4>SNS</h4>
+          <div class="snsIcon">
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-information">
+          <a href="#">
+            特定商取引法に基づく表記
+          </a>
+          <a href="#">
+            プライバシーポリシー
+          </a>
+          <a href="#">
+            ショッピングガイド
+          </a>
+          <a href="#">
+            ご利用規約
+          </a>
+          <a href="#">
+            よくある質問
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+  <!-- スライダー slick -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script>
+  <!-- new Item -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
