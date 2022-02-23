@@ -593,6 +593,7 @@ header {
   padding-top: 25px;
   padding-left: 20px;
   letter-spacing: 2px;
+  font-family: sans-serif;
 }
 .news-day {
   font-size: 12px;
@@ -601,6 +602,7 @@ header {
 .news-event {
   font-size: 13px;
   padding-top: 15px;
+  padding-right: 5px;
 }
 
 /* Topics */
@@ -928,11 +930,18 @@ footer {
     width: 70px;
     height: 70px;
   }
-    /* 重要なお知らせ */
+  /* About Us */
+  .aboutRight p{
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+  }
+  /* 重要なお知らせ */
   .important-news {
     width: 97%;
     margin: 20px auto;
-    font-size: 12px;
+    font-size: 10px;
+    padding: 10px 0;
   }
   .important-news i {
     display: none;
@@ -956,7 +965,4 @@ footer {
   .categoryItems {
     padding-top: 50px;
   }
-
-
 }
-
